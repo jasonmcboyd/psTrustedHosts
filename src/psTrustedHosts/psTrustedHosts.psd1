@@ -16,7 +16,7 @@ GUID = '7b44eadf-1406-4155-82a8-3b44d83c37b2'
 Author = 'Jason Boyd'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = 'Provides Cmdlets add, clear, get, and remove trusted hosts in WSMan:\localhost\Client\TrustedHosts.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
