@@ -4,7 +4,7 @@
 RootModule = 'psTrustedHosts.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0'
+ModuleVersion = '1.0.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -102,10 +102,10 @@ PrivateData = @{
         Tags = @('WSMan', 'Trusted Hosts', 'Remoting')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/jasonmcboyd/psTrustedHosts/blob/master/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/jasonmcboyd/psTrustedHosts'
 
         # A URL to an icon representing this module.
         # IconUri = ''
