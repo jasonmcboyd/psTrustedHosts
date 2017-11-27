@@ -4,7 +4,7 @@
 RootModule = 'psTrustedHosts.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.0.1'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -16,7 +16,7 @@ GUID = '7b44eadf-1406-4155-82a8-3b44d83c37b2'
 Author = 'Jason Boyd'
 
 # Description of the functionality provided by this module
-Description = 'Provides Cmdlets add, clear, get, and remove trusted hosts in WSMan:\localhost\Client\TrustedHosts.'
+Description = 'Provides Cmdlets to add, clear, get, and remove trusted hosts in WSMan:\localhost\Client\TrustedHosts.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -99,7 +99,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('WSMan', 'Trusted Hosts', 'Remoting')
+        Tags = @('WSMan', 'TrustedHosts', 'Remoting')
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/jasonmcboyd/psTrustedHosts/blob/master/LICENSE'
