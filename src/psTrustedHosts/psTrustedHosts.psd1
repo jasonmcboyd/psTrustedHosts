@@ -43,7 +43,7 @@ Description = 'Provides Cmdlets to add, clear, get, and remove trusted hosts in 
 # RequiredAssemblies = @()
 
 # Script files (.ps1) that are run in the caller's environment prior to importing this module.
-# ScriptsToProcess = @()
+ScriptsToProcess = @('RegisterArgumentCompleter.ps1')
 
 # Type files (.ps1xml) to be loaded when importing this module
 # TypesToProcess = @()
@@ -85,11 +85,14 @@ FileList = @(
     # Modules
     'psTrustedHosts.psm1'
 
-    # Script files
+    # Cmdlet Scripts
     'Add-TrustedHost.ps1'
     'Clear-TrustedHost.ps1'
     'Get-TrustedHost.ps1'
     'Remove-TrustedHost.ps1'
+
+    # Miscellaneous Scripts
+    'RegisterArgumentCompleter.ps1'
 )
 
 
