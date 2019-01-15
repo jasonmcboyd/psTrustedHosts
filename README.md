@@ -15,7 +15,7 @@ run the following command in PowerShell:
 
 - **Add-TrustedHost**
 
-  Adds one or more hosts. Specifically, it takes a an array of host names and converts it to a comma separated string and appends it to the value in WSMan:\localhost\Client\TrustedHosts. 
+  Adds one or more hosts. Specifically, it takes a an array of host names and converts it to a comma separated string and appends it to the value in WSMan:\localhost\Client\TrustedHosts.
   
   This command ensures that no duplicate host names are added.
   
@@ -30,3 +30,9 @@ run the following command in PowerShell:
 - **Remove-TrustedHost**
 
   Removes one or more trusted hosts. Specifically, it takes an array of host names and removes any occurrences of those host names from the value in WSMan:\localhost\Client\TrustedHosts.
+
+## Auto-Complete Support
+
+Both, `Get-TrustedHost` and `Remove-TrustedHost`, now support tab completion and IntelliSense (ctrl + space):
+
+![auto-complete](./AutoComplete.gif)
